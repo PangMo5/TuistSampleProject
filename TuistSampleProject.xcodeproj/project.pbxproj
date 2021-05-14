@@ -11,6 +11,9 @@
 		628E0A0F264E69C800823E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E0A0E264E69C800823E54 /* ContentView.swift */; };
 		628E0A11264E69C900823E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E0A10264E69C900823E54 /* Assets.xcassets */; };
 		628E0A14264E69C900823E54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628E0A13264E69C900823E54 /* Preview Assets.xcassets */; };
+		628E0A1C264E6AED00823E54 /* ClassA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E0A1B264E6AED00823E54 /* ClassA.swift */; };
+		628E0A1E264E6AF300823E54 /* ClassB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E0A1D264E6AF300823E54 /* ClassB.swift */; };
+		628E0A20264E6AF900823E54 /* ClassC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628E0A1F264E6AF900823E54 /* ClassC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		628E0A10264E69C900823E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		628E0A13264E69C900823E54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		628E0A15264E69C900823E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628E0A1B264E6AED00823E54 /* ClassA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassA.swift; sourceTree = "<group>"; };
+		628E0A1D264E6AF300823E54 /* ClassB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassB.swift; sourceTree = "<group>"; };
+		628E0A1F264E6AF900823E54 /* ClassC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				628E0A10264E69C900823E54 /* Assets.xcassets */,
 				628E0A15264E69C900823E54 /* Info.plist */,
 				628E0A12264E69C900823E54 /* Preview Content */,
+				628E0A1B264E6AED00823E54 /* ClassA.swift */,
+				628E0A1D264E6AF300823E54 /* ClassB.swift */,
+				628E0A1F264E6AF900823E54 /* ClassC.swift */,
 			);
 			path = TuistSampleProject;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				628E0A1C264E6AED00823E54 /* ClassA.swift in Sources */,
 				628E0A0F264E69C800823E54 /* ContentView.swift in Sources */,
 				628E0A0D264E69C800823E54 /* TuistSampleProjectApp.swift in Sources */,
+				628E0A20264E6AF900823E54 /* ClassC.swift in Sources */,
+				628E0A1E264E6AF300823E54 /* ClassB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
